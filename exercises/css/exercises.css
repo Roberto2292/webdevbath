@@ -1,0 +1,60 @@
+body {
+    padding-top: 50px;
+    background-image: url(../images/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 4rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.menu a {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    background-color: darkblue;
+    margin: 1rem;
+}
+
+.exercise {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 3rem;
+    font-size: 1.5rem;
+}
+
+section nav {
+    float: left;
+    padding: 100px;
+}
+
+
+/*
+button {
+    background: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+}
+
+button:hover {
+    background: rgb(133, 182, 255);
+    color: white;
+    cursor: pointer;
+}
+*/
